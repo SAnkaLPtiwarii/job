@@ -29,8 +29,8 @@ Nodemailer for email functionality
 Setup and Installation
 
 Clone the repository
-Copygit clone https://github.com/your-username/cuvette-job-board.git
-cd cuvette-job-board
+Copygit clone https://github.com/SAnkaLPtiwarii/job.git
+cd cuvette
 
 Setup Backend
 Copycd server
