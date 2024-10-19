@@ -1,0 +1,116 @@
+:root {
+    --primary-color: #0066FF;
+    --background-color: #F5F5F5;
+    --text-color: #333333;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.user-dropdown {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.signup-container,
+.otp-verification-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: calc(100vh - 80px);
+}
+
+.left-content,
+.right-content {
+    width: 45%;
+}
+
+form input,
+form textarea,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.dashboard-container,
+.create-job-container {
+    display: flex;
+}
+
+aside {
+    width: 200px;
+    padding: 20px;
+    background-color: white;
+}
+
+main {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.create-interview-btn {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.success-message {
+    color: green;
+    margin-bottom: 10px;
+}
+
+.job-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.job-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
