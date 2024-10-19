@@ -1,33 +1,7 @@
 Cuvette Job Board
 A full-stack job posting board application with email automation features. This project allows companies to register, post job listings, and automate email communications with candidates.
-Project Structure
-Copycuvette/
-│
-├── client/             # Frontend React application
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── services/
-│   │   ├── styles/
-│   │   ├── App.js
-│   │   └── index.js
-│   ├── package.json
-│   └── README.md
-│
-├── server/             # Backend Node.js/Express application
-│   ├── config/
-│   ├── controllers/
-│   ├── middleware/
-│   ├── models/
-│   ├── routes/
-│   ├── services/
-│   ├── .env
-│   ├── server.js
-│   └── package.json
-│
-└── README.md           # This file
-Features
+
+features
 
 User authentication (signup, login, email verification)
 Job posting creation and management
